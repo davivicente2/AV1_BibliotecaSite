@@ -1,0 +1,70 @@
+﻿@model List<BibliotecaDB.model.Models.Emprestimos>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-controller="Emprestimo" asp-action="Create">Adicionar um novo Emprestimo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model[0].DataEmprestimo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].DataDevolucao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].NomePessoa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].EmailPessoa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Livro)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @if (item != null)
+                    {
+                        @Html.DisplayFor(modelItem => item.DataEmprestimo)
+                    }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataDevolucao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomePessoa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailPessoa)
+            </td>
+            <td>
+               @if (item.Livro != null)
+    {
+        @Html.DisplayFor(modelItem => item.Livro.Isbn)
+    }
+    else
+    {
+        <text>N/A</text>
+    }
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.EmprestimoId}) |
+                @Html.ActionLink("Details", "Details", new { id = item.EmprestimoId}) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.EmprestimoId })
+            </td>
+
+        </tr>
+}
+    </tbody>
+</table>

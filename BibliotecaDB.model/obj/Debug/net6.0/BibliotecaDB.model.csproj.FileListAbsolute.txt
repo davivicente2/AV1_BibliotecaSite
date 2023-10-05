@@ -1,0 +1,14 @@
+C:\Users\dvice\source\repos\BilibotecaDB\BibliotecaDB.model\bin\Debug\net6.0\BibliotecaDB.model.deps.json
+C:\Users\dvice\source\repos\BilibotecaDB\BibliotecaDB.model\bin\Debug\net6.0\BibliotecaDB.model.runtimeconfig.json
+C:\Users\dvice\source\repos\BilibotecaDB\BibliotecaDB.model\bin\Debug\net6.0\BibliotecaDB.model.dll
+C:\Users\dvice\source\repos\BilibotecaDB\BibliotecaDB.model\bin\Debug\net6.0\BibliotecaDB.model.pdb
+C:\Users\dvice\source\repos\BilibotecaDB\BibliotecaDB.model\obj\Debug\net6.0\BibliotecaDB.model.csproj.AssemblyReference.cache
+C:\Users\dvice\source\repos\BilibotecaDB\BibliotecaDB.model\obj\Debug\net6.0\BibliotecaDB.model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dvice\source\repos\BilibotecaDB\BibliotecaDB.model\obj\Debug\net6.0\BibliotecaDB.model.AssemblyInfoInputs.cache
+C:\Users\dvice\source\repos\BilibotecaDB\BibliotecaDB.model\obj\Debug\net6.0\BibliotecaDB.model.AssemblyInfo.cs
+C:\Users\dvice\source\repos\BilibotecaDB\BibliotecaDB.model\obj\Debug\net6.0\BibliotecaDB.model.csproj.CoreCompileInputs.cache
+C:\Users\dvice\source\repos\BilibotecaDB\BibliotecaDB.model\obj\Debug\net6.0\BibliotecaDB.model.dll
+C:\Users\dvice\source\repos\BilibotecaDB\BibliotecaDB.model\obj\Debug\net6.0\refint\BibliotecaDB.model.dll
+C:\Users\dvice\source\repos\BilibotecaDB\BibliotecaDB.model\obj\Debug\net6.0\BibliotecaDB.model.pdb
+C:\Users\dvice\source\repos\BilibotecaDB\BibliotecaDB.model\obj\Debug\net6.0\BibliotecaDB.model.genruntimeconfig.cache
+C:\Users\dvice\source\repos\BilibotecaDB\BibliotecaDB.model\obj\Debug\net6.0\ref\BibliotecaDB.model.dll

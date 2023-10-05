@@ -1,0 +1,53 @@
+﻿@model List<BibliotecaDB.model.Models.Livros>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-controller="Livros" asp-action="Create">Adicionar um novo Livro</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Isbn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].AnoPublicacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Autor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Isbn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AnoPublicacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Autor.Nome)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.LivroId}) |
+                @Html.ActionLink("Details", "Details", new { id = item.LivroId}) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.LivroId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
